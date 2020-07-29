@@ -3,8 +3,14 @@ Final state of Tutorial code running on latest release version.
 
 This is where the testing happens.
 
-### Deployed on Netlify
-https://jovial-bohr-4ac134.netlify.com/
+### Deployment
+
+🐘 Database is deployed on [Azure Database for PostgreSQL](https://azure.microsoft.com/en-ca/services/postgresql/) instead of Heroku.
+
+🕸 Webapp is deployed on [Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/): <insert URL here>
+
+The [parent repo](https://github.com/thedavidprice/redwood-tutorial-test) is deployed on Netlify: https://jovial-bohr-4ac134.netlify.com/
+
 
 
 ## Getting Started
