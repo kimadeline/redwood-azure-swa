@@ -18,6 +18,6 @@
     "yarn": ">=1.15"
   },
   "scripts": {
-    "build": ""
+    "build": "yarn rw db up --no-db-client && yarn rw build"
   }
 }
