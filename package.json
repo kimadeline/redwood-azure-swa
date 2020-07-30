@@ -16,8 +16,5 @@
   "engines": {
     "node": ">=12",
     "yarn": ">=1.15"
-  },
-  "scripts": {
-    "build": "yarn rw db up --no-db-client && yarn rw build"
   }
 }
