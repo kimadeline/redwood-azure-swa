@@ -8,5 +8,12 @@
   </head>
   <body>
     <div id="redwood-app"></div>
+    <p>Loading content from the API: <b id="name">...</b></p>
+    <script>
+      (async function() {
+        let { text } = await( await fetch(`/api/message`)).json();
+        document.querySelector('#name').textContent = text;
+      }())
+    </script>
   </body>
 </html>
